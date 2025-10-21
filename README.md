@@ -1,3 +1,4 @@
+
 <img width="400" height="400" alt="image-removebg-preview" src="https://github.com/user-attachments/assets/bff09504-47bd-409d-8eb1-496c6941783d" />
 
 # 🧠 Projetos com Raspberry Pi
