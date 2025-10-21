@@ -6,57 +6,44 @@ Bem-vindo(a)! 👋
 Este repositório reúne alguns projetinhos que estou desenvolvendo com o **Raspberry Pi** — uma plaquinha superversátil usada para aprender eletrônica, programação e automação.  
 
 A ideia é mostrar, de forma simples e prática, como usar o Raspberry Pi em diferentes aplicações, mesmo que você **nunca tenha mexido com isso antes**.  
-Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligação e o que aprendi no processo. 🚀  
+Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligação e o que aprendi no processo. 🚀 
+
+**OBS:** Neste projeto estarei usando o **_Raspberry Pi Pico 2 W_**
 
 ---
 
 ## 📂 Índice de Projetos
-
-| Projeto | Descrição | Link |
-|----------|------------|------|
-| 💡 [Pisca LED com GPIO](#-pisca-led-com-gpio) | O clássico “Hello World” da eletrônica: acendendo e apagando um LED. | [Ver projeto](#-pisca-led-com-gpio) |
-| 🌡️ [Sensor de Temperatura e Umidade (DHT11)](#-sensor-de-temperatura-e-umidade-dht11) | Lendo dados ambientais com o sensor DHT11. | [Ver projeto](#-sensor-de-temperatura-e-umidade-dht11) |
-| 🎵 [Tocando sons com o buzzer](#-tocando-sons-com-o-buzzer) | Como gerar sons e melodias com o Raspberry Pi. | [Ver projeto](#-tocando-sons-com-o-buzzer) |
-| 📸 [Capturando imagens com a câmera Pi](#-capturando-imagens-com-a-câmera-pi) | Explorando o módulo de câmera e salvando fotos. | [Ver projeto](#-capturando-imagens-com-a-câmera-pi) |
-| 🔌 [Automação simples com relé](#-automação-simples-com-relé) | Controlando dispositivos elétricos com segurança. | [Ver projeto](#-automação-simples-com-relé) |
+- [Hello World](#hello-world)
 
 ---
 
-## 💡 Pisca LED com GPIO
-**Objetivo:** Aprender a controlar um pino digital do Raspberry Pi.  
+## 👋🏽 Hello World <a name="hello-world"></a>
+**Objetivo:** Conhecer como funciona. 
 **Nível:** Iniciante  
 **O que você vai precisar:**
-- 1 LED  
-- 1 resistor de 220 Ω  
-- Jumpers e protoboard  
+- Raspberry pi pico 2w
+- Cabo Micro-USB (já vem o cabo por padrão)
 
-📘 *Explicação passo a passo e código em breve...*
+📘 *Explicação passo a passo e código:*
+- Primeiro você conecta o cabo USB no computador, enquanto a outra ponta (Micro-USB) você conecta na plaquinha.
+- Logo em seguida você abre o aplicativo Thonny.
+- Faça o seguinte código:
 
----
+```
+import time #importação de tempo
 
-## 🌡️ Sensor de Temperatura e Umidade (DHT11)
-**Objetivo:** Ler dados do sensor e exibi-los no terminal.  
-📘 *Em desenvolvimento...*
+time.sleep(1.0) # Tempo de 1 segundo para o código rodar
 
----
+print("Hello, Pi Pico W!") # Mostre no terminal a frase "Hello World"
 
-## 🎵 Tocando sons com o buzzer
-**Objetivo:** Gerar sons simples com Python e GPIO.  
-📘 *Em breve...*
-
----
-
-## 📸 Capturando imagens com a câmera Pi
-**Objetivo:** Usar a câmera oficial do Raspberry Pi para tirar fotos e vídeos.  
-📘 *Em breve...*
+```
+- Logo após salve no Raspberry PI (em um novo arquivo ou na main) com o final .py (ex: main.py)
+- Rode o código e pronto. **Parabéns você criou seu primeiro código!**
 
 ---
 
-## 🔌 Automação simples com relé
-**Objetivo:** Acionar cargas elétricas (como lâmpadas) por software.  
-📘 *Em breve...*
 
----
+
 
 ## 🧭 Sobre este repositório
 Este espaço é um **diário de aprendizado** — vou documentando cada projeto, mostrando erros, acertos e o que fui descobrindo ao longo do caminho.  
