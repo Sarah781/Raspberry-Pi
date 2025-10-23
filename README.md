@@ -1,4 +1,3 @@
-
 <img width="400" height="400" alt="image-removebg-preview" src="https://github.com/user-attachments/assets/bff09504-47bd-409d-8eb1-496c6941783d" />
 
 # 🧠 Projetos com Raspberry Pi
@@ -28,17 +27,11 @@ Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligaç�
 📘 *Explicação passo a passo e código:*
 - Primeiro você conecta o cabo USB no computador, enquanto a outra ponta (Micro-USB) você conecta na plaquinha.
 - Logo em seguida você abre o aplicativo Thonny.
-- Faça o seguinte código:
-
-```
-import time #importação de tempo
-
-time.sleep(1.0) # Tempo de 1 segundo para o código rodar
-
-print("Hello, Pi Pico W!") # Mostre no terminal a frase "Hello World"
-
-```
-- Logo após salve no Raspberry PI (em um novo arquivo ou na main) com o final .py (ex: main.py)
+- Faça o seguinte código abaixo:
+- [Código aqui](./cod/helloworld.py)
+- [Gif aqui](./videos/helloworld.mp4)
+- [imagem aqui](./img/helloworld.png)
+- Logo após salve no Raspberry PI (em um novo arquivo ou na main) com o final .py (ex: helloworld.py)
 - Rode o código e pronto. **Parabéns você criou seu primeiro código!**
 
 ---
