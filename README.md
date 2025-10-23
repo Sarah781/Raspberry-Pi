@@ -13,31 +13,9 @@ Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligaç�
 ---
 
 ## 📂 Índice de Projetos
-- [Hello World](#hello-world)
+- [Hello World](./hello-world/README.md)
 
 ---
-
-## 👋🏽 Hello World <a name="hello-world"></a>
-**Objetivo:** Conhecer como funciona. 
-**Nível:** Iniciante  
-**O que você vai precisar:**
-- Raspberry pi pico 2w
-- Cabo Micro-USB (já vem o cabo por padrão)
-
-📘 *Explicação passo a passo e código:*
-- Primeiro você conecta o cabo USB no computador, enquanto a outra ponta (Micro-USB) você conecta na plaquinha.
-- Logo em seguida você abre o aplicativo Thonny.
-- Faça o seguinte código abaixo:
-- [Código aqui](./cod/helloworld.py)
-- [Gif aqui](./videos/helloworld.mp4)
-- [imagem aqui](./img/helloworld.png)
-- Logo após salve no Raspberry PI (em um novo arquivo ou na main) com o final .py (ex: helloworld.py)
-- Rode o código e pronto. **Parabéns você criou seu primeiro código!**
-
----
-
-
-
 
 ## 🧭 Sobre este repositório
 Este espaço é um **diário de aprendizado** — vou documentando cada projeto, mostrando erros, acertos e o que fui descobrindo ao longo do caminho.  
