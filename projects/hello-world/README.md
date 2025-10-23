@@ -9,10 +9,10 @@
 - Primeiro você conecta o cabo USB no computador, enquanto a outra ponta (Micro-USB) você conecta na plaquinha.
 - Logo em seguida você abre o aplicativo Thonny.
 - Faça o **[seguinte código](/hello-world/cod/helloworld.py)**
-<br>
-<br>
-![alt text](/assets/helloworld.gif)
-<br>
-<br>
+
+
+![alt text](./assets/helloworld.gif)
+
+
 - Logo após salve no Raspberry PI (em um novo arquivo ou na main) com o final .py (ex: helloworld.py)
 - Rode o código e pronto. **Parabéns você criou seu primeiro código!**
