@@ -8,7 +8,7 @@
 📘 *Explicação passo a passo e código:*
 - Primeiro você conecta o cabo USB no computador, enquanto a outra ponta (Micro-USB) você conecta na plaquinha.
 - Logo em seguida você abre o aplicativo Thonny.
-- Faça o **[seguinte código](/hello-world/cod/helloworld.py)**
+- Faça o **[seguinte código](./src/helloworld.py)**
 
 
 ![alt text](./assets/helloworld.gif)

@@ -33,7 +33,7 @@ Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligaç�
 
 ## 📂 Índice de Projetos
 - [Hello World](./projects/hello-world)
-
+- [Led Embarcado](./projects/led-embarcado/)
 ---
 
 ## 🧭 Sobre este repositório
