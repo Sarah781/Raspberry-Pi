@@ -11,6 +11,25 @@ Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligaç�
 **OBS:** Neste projeto estarei usando o **_Raspberry Pi Pico 2 W_**
 
 ---
+## ⚙️ Como configurar o Raspberry Pi Pico 2 W
+### O Aplicativo
+- **Passo 1**: Baixe o aplicativo [THONNY](https://thonny.org/)
+- **Passo 2**: Em seguida, clique em Avançar e Instalar para finalizar a instalação do Thonny.
+
+### O Raspberry
+
+- **Passo 1**: Pressione e segure o botão BOOTSEL e utilizando o cabo USB, conecte a Pico W à porta USB do computador. Solte o botão BOOTSEL só depois que sua Pico W estiver conectada ao computador.
+
+- **Passo 2**: Ela será identificada pelo computador como um dispositivo de armazenamento em massa chamado RPI-RP2.
+
+- **Passo 3**: Abra a a IDE Thonny e na parte inferior direita clique no menu de interpretadores, que provavelmente estará com os dizeres “Local Python 3 . Thonny’s Python” se você instalou em inglês ou “Python 3 local . Python do Thonny” se você instalou em português.
+
+- **Passo 4**: Clique em Instalar Micropython, em Target volume ele deve já indicar o RPI-RP2. Caso não indique, selecione na lista. Micropython family já deve estar como RP2, então não é necessário selecionar a menos que não apareça dessa forma. Em Variant selecione o modelo de placa Pico que você está utilizando. A versão será populada automaticamente com a última versão disponível.
+
+- **Passo 5**: Clique em Instalar e aguarde a conclusão, o Thonny irá baixar e instalar o Micropython na sua placa. Quando finalizar, feche a janela de instalação.
+
+- _**Pronto! Agora você está executando o MicroPython.**_
+---
 
 ## 📂 Índice de Projetos
 - [Hello World](./projects/hello-world)
@@ -23,7 +42,7 @@ A ideia é ajudar quem também está começando e quer aprender de forma prátic
 
 Se quiser acompanhar as atualizações ou contribuir com ideias, fique à vontade!  
 
-📬 **Contato:** [@Sarah781](https://github.com/Sarah781)
+📬 **Contato:** [@SarahSantana](https://www.linkedin.com/in/sarah-santana-843394200/)
 
 ---
 
