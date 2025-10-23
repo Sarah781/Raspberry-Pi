@@ -8,11 +8,10 @@
 📘 *Explicação passo a passo e código:*
 - Primeiro você conecta o cabo USB no computador, enquanto a outra ponta (Micro-USB) você conecta na plaquinha.
 - Logo em seguida você abre o aplicativo Thonny.
-- Faça o seguinte código abaixo:
-- [Código aqui](/hello-world/cod/helloworld.py) 
+- Faça o **[seguinte código](/hello-world/cod/helloworld.py)**
 <br>
 <br>
-![alt text](/projects/hello-world/gif/helloworld.gif)
+![alt text](/projects/hello-world/assets/helloworld.gif)
 <br>
 <br>
 - Logo após salve no Raspberry PI (em um novo arquivo ou na main) com o final .py (ex: helloworld.py)
