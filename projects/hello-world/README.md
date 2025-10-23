@@ -11,7 +11,7 @@
 - Faça o **[seguinte código](/hello-world/cod/helloworld.py)**
 <br>
 <br>
-![alt text](/projects/hello-world/assets/helloworld.gif)
+![alt text](/assets/helloworld.gif)
 <br>
 <br>
 - Logo após salve no Raspberry PI (em um novo arquivo ou na main) com o final .py (ex: helloworld.py)
