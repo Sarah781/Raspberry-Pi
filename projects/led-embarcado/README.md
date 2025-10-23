@@ -1,4 +1,4 @@
-## 👋🏽 Led Embarcado <a name="led-embarcado"></a>
+## 💡 Led Embarcado <a name="led-embarcado"></a>
 **Objetivo:** Ligar o led da placa 
 **Nível:** Iniciante  
 **O que você vai precisar:**
