@@ -11,6 +11,11 @@ Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligaç�
 **OBS:** Neste projeto estarei usando o **_Raspberry Pi Pico 2 W_**
 
 ---
+## 💼 Kit
+
+![alt text](./assets/image.png)
+
+
 ## ⚙️ Como configurar o Raspberry Pi Pico 2 W
 ### O Aplicativo
 - **Passo 1**: Baixe o aplicativo [THONNY](https://thonny.org/)
