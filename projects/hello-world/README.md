@@ -1,4 +1,4 @@
-## 👋🏽 Hello World <a name="hello-world"></a>
+## 👋🏽 Hello World 
 **Objetivo:** Conhecer como funciona. 
 **Nível:** Iniciante  
 **O que você vai precisar:**
