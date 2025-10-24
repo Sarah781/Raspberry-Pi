@@ -55,7 +55,7 @@ Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligaç�
 ---
 
 ## 🧭 Sobre este repositório
-Este espaço é um **diário de aprendizado** — vou documentando cada projeto, mostrando erros, acertos e o que fui descobrindo ao longo do caminho.  
+Este espaço é um **diário de aprendizado** — vou documentando cada projeto, mostrando o que fui descobrindo ao longo do caminho.  
 A ideia é ajudar quem também está começando e quer aprender de forma prática. ❤️  
 
 Se quiser acompanhar as atualizações ou contribuir com ideias, fique à vontade!  
