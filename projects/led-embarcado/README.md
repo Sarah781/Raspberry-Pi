@@ -1,6 +1,8 @@
 ## 💡 Led Embarcado 
 **Objetivo:** Ligar o led da placa 
+
 **Nível:** Iniciante  
+
 **O que você vai precisar:**
 - Raspberry pi pico 2w
 - Cabo Micro-USB (já vem o cabo por padrão)

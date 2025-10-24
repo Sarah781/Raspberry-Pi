@@ -1,6 +1,8 @@
 ## Pisca-Pisca 
-**Objetivo:** Conhecer como funciona. 
+**Objetivo:** Piscar o led
+
 **Nível:** Iniciante  
+
 **O que você vai precisar:**
 - 1x LED Vermelho 5 mm
 - 1x Resistor 330 ohm
