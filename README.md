@@ -35,6 +35,18 @@ Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligaç�
 - [Hello World](./projects/hello-world)
 - [Led Embarcado](./projects/led-embarcado/)
 - [Pisca Pisca](./projects/pisca-pisca/)
+- [SOS](./projects/SOS-luminoso/)
+- [Brilho Ocilante](./projects/brilho-ocilante/)
+- [Luzes Coloridas](./projects/Luzes-coloridas/)
+- [Troque a cor das luzes](./projects/troque-a-cor-das-luzes/)
+- [Interruptor de luz intermitente](./projects/interruptor-de-luz-intermitente/)
+- [Interruptor de luz liga-desliga](./projects/interruptor-de-luz-liga-desliga/)
+- [Sensor de luz ambiente](./projects/sensor-de-luz-ambiente/)
+- [Adicionando um buzzer](./projects/adicionando-buzzer/)
+- [Dó Ré Mi](./projects/do-re-mi/)
+- [Contador Digital](./projects/contador-digital/)
+- [Dado eletrônico](./projects/dado-eletronico/)
+- [NTC](./projects/ntc/)
 ---
 
 ## 🧭 Sobre este repositório
