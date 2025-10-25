@@ -19,4 +19,5 @@
 - Faça o **[seguinte código](./src/pisca-pisca.py)**
 - Logo após salve no Raspberry PI (em um novo arquivo ou na main) com o final .py (ex: helloworld.py)
 
+### Resultado final:
 ![alt text](./assets/pisca-pisca.gif)
