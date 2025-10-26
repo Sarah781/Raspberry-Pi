@@ -14,7 +14,7 @@
 
 📘 *Explicação passo a passo e código:*
 - Primeiro você conecta o cabo USB no computador, enquanto a outra ponta (Micro-USB) você conecta na plaquinha.
-- Faça essa **[conexão](./assets/image.png)**
+- Faça essa **[conexão](./assets/luz-colorida.png)**
 - Logo em seguida você abre o aplicativo Thonny.
 - Faça o **[seguinte código](./src/luzes.coloridas.py)**
 
