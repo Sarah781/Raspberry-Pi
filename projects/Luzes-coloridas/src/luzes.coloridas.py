@@ -9,80 +9,69 @@ pinoLed_G = 17                                          # Declara a variável le
 pinoLed_B = 18                                          # Declara a variável led_B e atribui o valor 18 a ela
 
 
-def acendeVermelho():
-    
-    led_R.value(0)                                      # Acende a cor Vermelha do LED
-    
-    led_G.value(1)                                      # Apaga a cor Vermelha do LED
-    
-    led_B.value(1)                                      # Apaga a cor Vermelha do LED
-    
-def acendeRoxo():
+def acendeVermelho():                                   # Acende Vermelho
+    led_R.value(0)
+    led_G.value(1)
+    led_B.value(1)
+
+def acendeRoxo():                                       # Acende Roxo(mistura de Vermelho e Azul)
     led_R.value(0)
     led_G.value(1)
     led_B.value(0)
 
+def acendeVerde():                                      # Acende verde
+    led_R.value(1)
+    led_G.value(0)
+    led_B.value(1)
 
-def acendeVerde():
-    
-    led_R.value(1)                                      # Apaga a cor Vermelha do LED
-    
-    led_G.value(0)                                      # Acende a cor Vermelha do LED
-    
-    led_B.value(1)                                      # Apaga a cor Vermelha do LED
-    
-def acendeCiano():
+def acendeAmarelo():                                    # Acende Amarelo (mistura Vermelho e Verde)
+    led_R.value(0)
+    led_G.value(0)
+    led_B.value(1)
+
+def acendeCiano():                                      # Acende Ciano (mistura Verde e Azul)
     led_R.value(1)
     led_G.value(0)
     led_B.value(0)
 
-
-def acendeAzul():
-    
-    led_R.value(1)                                      # Apaga a cor Vermelha do LED
-    
-    led_G.value(1)                                      # Apaga a cor Vermelha do LED
-    
-    led_B.value(0)                                      # Acende a cor Vermelha do LED
-    
-
-def acendeAmarelo():
-    led_R.value(0)
-    led_G.value(0)
-    led_B.value(1)
+def acendeAzul():                                       # Acende Azul
+    led_R.value(1)
+    led_G.value(1)
+    led_B.value(0)
 
 
 def apagaLed():
     
     led_R.value(1)                                      # Apaga a cor Vermelha do LED
-    
-    led_G.value(1)                                      # Apaga a cor Vermelha do LED
-    
-    led_B.value(1)                                      # Apaga a cor Vermelha do LED
+    led_G.value(1)                                      # Apaga a cor Verde do LED
+    led_B.value(1)                                      # Apaga a cor Azul do LED
 
 
 
-led_R = machine.Pin(pinoLed_R, machine.Pin.OUT)         # Configura a porta 11 (valor da variável pinoLed_R) como saida e da a ela o nome led_R
-
-led_G = machine.Pin(pinoLed_G, machine.Pin.OUT)         # Configura a porta 12 (valor da variável pinoLed_G) como saida e da a ela o nome led_G
-
-led_B = machine.Pin(pinoLed_B, machine.Pin.OUT)         # Configura a porta 13 (valor da variável pinoLed_B) como saida e da a ela o nome led_B
+led_R = machine.Pin(pinoLed_R, machine.Pin.OUT)  
+led_G = machine.Pin(pinoLed_G, machine.Pin.OUT)         
+led_B = machine.Pin(pinoLed_B, machine.Pin.OUT)         
 
 
 while True:                                             
                                 
-    acendeVermelho()                                    # Chama a funcao de acender a cor Vermelha do LED e apagar as demais
-  
-    utime.sleep_ms(1000)                                # Aguarda 1000 milissegundos (1 segundo)
-  
-    acendeVerde()                                       # Chama a funcao de acender a cor Verde do LED e apagar as demais
-  
-    utime.sleep_ms(1000)                                # Aguarda 1000 milissegundos (1 segundo)
-  
-    acendeAzul()                                        # Chama a funcao de acender a cor Azul do LED e apagar as demais
-  
+    acendeVermelho()
+    utime.sleep_ms(1000)
+    
+    acendeVerde()
+    utime.sleep_ms(1000)
+    
+    acendeAmarelo()
+    utime.sleep_ms(1000)
+    
+    acendeCiano()
+    utime.sleep_ms(1000)
+    
+    acendeRoxo()
+    utime.sleep_ms(1000)
+    
+    acendeAzul()
     utime.sleep_ms(1000)                                # Aguarda 1000 milissegundos (1 segundo)
   
     apagaLed()                                          # Chama a funcao de apagar todas as cores do LED
-  
     utime.sleep_ms(1000)                                # Aguarda 1000 milissegundos (1 segundo)
