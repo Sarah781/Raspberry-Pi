@@ -13,7 +13,7 @@ Cada projeto tem explicações passo a passo, código-fonte, esquemas de ligaç�
 ---
 ## 💼 Kit
 
-![alt text](./assets/image.png)
+![imagem do kit](./assets/image.png)
 
 
 ## ⚙️ Como configurar o Raspberry Pi Pico 2 W

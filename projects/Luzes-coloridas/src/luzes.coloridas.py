@@ -17,6 +17,10 @@ def acendeVermelho():
     
     led_B.value(1)                                      # Apaga a cor Vermelha do LED
     
+def acendeRoxo():
+    led_R.value(0)
+    led_G.value(1)
+    led_B.value(0)
 
 
 def acendeVerde():
@@ -27,6 +31,10 @@ def acendeVerde():
     
     led_B.value(1)                                      # Apaga a cor Vermelha do LED
     
+def acendeCiano():
+    led_R.value(1)
+    led_G.value(0)
+    led_B.value(0)
 
 
 def acendeAzul():
@@ -37,6 +45,11 @@ def acendeAzul():
     
     led_B.value(0)                                      # Acende a cor Vermelha do LED
     
+
+def acendeAmarelo():
+    led_R.value(0)
+    led_G.value(0)
+    led_B.value(1)
 
 
 def apagaLed():
