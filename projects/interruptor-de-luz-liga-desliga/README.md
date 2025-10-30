@@ -1,4 +1,4 @@
-## Interruptor de luz intermitente
+## Interruptor de luz liga e desliga
 **Objetivo:** Fazer o led ligar apenas se apertar o botão
 
 **Nível:** Iniciante  
@@ -16,8 +16,8 @@
 
 📘 *Explicação passo a passo e código:*
 - Primeiro você conecta o cabo USB no computador, enquanto a outra ponta (Micro-USB) você conecta na plaquinha.
-- Faça essa **[conexão](./assets/)**
+- Faça essa **[conexão](./assets/interruptor.png)**
 - Logo em seguida você abre o aplicativo Thonny.
-- Faça o **[seguinte código](./src/)**
+- Faça o **[seguinte código](./src/interruptor-liga-desliga.py)**
 ### Resultado final:
-![alt text](./assets)
+![alt text](./assets/interruptor-liga-desliga.gif)
